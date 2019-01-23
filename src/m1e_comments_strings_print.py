@@ -28,3 +28,10 @@ print('one', 'two', 'buckle my shoe')
 
 print(3 + 9)
 print('3 + 9', 'versus', 3 + 9)
+def mystery(x,y):
+    result = (x+y)/(y-x)
+    return result
+
+print('mystery 2,3 =',mystery(2,3))
+print('mystery 3,2 = ',mystery(3,2))
+print('mystery -1,3 = ',mystery(-1,3))

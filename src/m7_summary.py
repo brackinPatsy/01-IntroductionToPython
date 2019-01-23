@@ -2,16 +2,16 @@
 An exercise that summarizes what you have learned in this Session.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Patsy.
 """
 ########################################################################
-# TODO: 1.
+# done: 1.
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ########################################################################
 
 ########################################################################
 #
-# TODO: 2.
+# done: 2.
 #   Write code that accomplishes the following (and ONLY the following),
 #   in the order listed:
 #
@@ -43,3 +43,35 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   As always, COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+#answers to quiz 2
+import rosegraphics as rg
+window = rg.TurtleWindow()
+window.delay(20)
+nadia=rg.SimpleTurtle
+import math
+x = 4 + 8
+print(x)
+x = (4 + 2) * 3
+print(x)
+x = 42**(1./3.)
+print(x)
+x = 42**(1/3)
+print(x)
+x=42**(0.3333333)
+print(x)
+x =15.
+x = x+5.0
+x=x*3
+print(type(x))
+print(x)
+x = 52
+print(type(x))
+x = -27.235
+print(type(x))
+x =  x + 10
+print(type(x))
+x ='hello'*3
+print(type(x))
+print(x)
+p =math.pi
+print(p)
