@@ -28,6 +28,7 @@ print('one', 'two', 'buckle my shoe')
 
 print(3 + 9)
 print('3 + 9', 'versus', 3 + 9)
+
 def mystery(x,y):
     result = (x+y)/(y-x)
     return result
@@ -35,3 +36,36 @@ def mystery(x,y):
 print('mystery 2,3 =',mystery(2,3))
 print('mystery 3,2 = ',mystery(3,2))
 print('mystery -1,3 = ',mystery(-1,3))
+
+def countEvans(n):
+    count = 0
+    for k in range(n):
+        # the % sign means "take the remainder"
+        if k % 2 == 0:
+            count = count +1
+        print(k, count)
+    return count
+
+def countOdds(n):
+    count = 0
+    for k in range(n):
+        # the % sign means "take the remainder"
+        if k % 2 != 0:
+            count = count +1
+        print(k, count)
+    return count
+
+def printOdds(n):
+    for k in range(n):
+        # the % sign means "take the remainder"
+        if k % 2 != 0:
+            print(k)
+
+def fastprintOdds(n):
+    for k in range(1,n,2):
+        print(k)
+
+print(countEvans(5))
+print(countOdds(5))
+printOdds(5)
+fastprintOdds(5)
