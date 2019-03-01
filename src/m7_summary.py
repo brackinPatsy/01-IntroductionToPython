@@ -75,3 +75,25 @@ print(type(x))
 print(x)
 p =math.pi
 print(p)
+
+def main():
+    a=alpha()
+    print()
+    b = beta()
+    print()
+    g = gamma()
+    print()
+    print('main!',a,b,g)
+
+def alpha():
+    print('Alpha!')
+    return 7
+
+def beta():
+    print('Beta')
+    return 15 +alpha()
+
+def gamma():
+    print('Gamma!', alpha(),beta())
+    return alpha() + beta() +alpha()
+main()
